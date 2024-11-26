@@ -16,7 +16,7 @@
 
 * [實作案例](#實作案例)
 * [Boot ISO By GRUB](#boot-iso-by-grub)
-* [Lika OS / Live System](#lika-os--live-system)
+* [Debian OS / Live System](#debian-os--live-system)
 * [相關筆記](#相關筆記)
 
 
