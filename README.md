@@ -81,8 +81,8 @@ menuentry "Debian Live ISO" --class Debian {
 	#set locale_option="locales=ko_KR.UTF-8"
 
 	set boot_option="${locale_option} ${extra_option}"
-	linux	(loop)/live/vmlinuz boot=live buuid=${iso_partition_uuid} findiso=${iso_file} ${boot_option}
-	initrd	(loop)/live/initrd.img
+	linux (loop)/live/vmlinuz boot=live buuid=${iso_partition_uuid} findiso=${iso_file} ${boot_option}
+	initrd (loop)/live/initrd.img
 }
 ```
 
