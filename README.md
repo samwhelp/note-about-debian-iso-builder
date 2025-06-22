@@ -86,7 +86,7 @@ menuentry "Debian Live ISO" --class Debian {
 }
 ```
 
-> 重新開機後，就會在「GRUB」的開機選單，看到「`Lika OS`」這個選項。
+> 重新開機後，就會在「GRUB」的開機選單，看到「`Debian Live ISO`」這個選項。
 
 
 
