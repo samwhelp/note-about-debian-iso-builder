@@ -17,7 +17,7 @@
 * [實作案例](#實作案例)
 * [Respin](#respin)
 * [Boot ISO By GRUB](#boot-iso-by-grub)
-* [Debian / ISO Builder / Live System](#debian--iso-builder--live-system)
+* [Live Account](#live-account)
 * [相關案例](#相關案例)
 * [相關筆記](#相關筆記)
 
@@ -91,7 +91,7 @@ menuentry "Debian Live ISO" --class Debian {
 
 
 
-## Debian / ISO Builder / Live System
+## Live Account
 
 | Account  | Value  |
 | -------- | ------ |
