@@ -15,8 +15,10 @@
 ## 主題
 
 * [實作案例](#實作案例)
+* [Respin](#respin)
 * [Boot ISO By GRUB](#boot-iso-by-grub)
-* [Debian OS / Live System](#debian-os--live-system)
+* [Debian / ISO Builder / Live System](#debian--iso-builder--live-system)
+* [相關案例](#相關案例)
 * [相關筆記](#相關筆記)
 
 
@@ -24,9 +26,31 @@
 
 ## 實作案例
 
-| 實作案例 |
-| ------- |
-| [debian-iso-builder-start](https://github.com/samwhelp/debian-iso-builder-start) |
+| Link | GitHub |
+| ---- | ------ |
+| [debian-iso-builder-template](https://samwhelp.github.io/debian-iso-builder-template/) | [GitHub](https://github.com/samwhelp/debian-iso-builder-template) |
+| [debian-iso-builder-engine-develop](https://samwhelp.github.io/debian-iso-builder-engine-develop/) | [GitHub](https://github.com/samwhelp/debian-iso-builder-engine-develop) |
+
+
+
+
+## Respin
+
+| Remix | Respin |
+| ----- | ------ |
+| [debian-iso-builder-remix-gnome-shell](https://github.com/samwhelp/debian-iso-builder-remix-gnome-shell) | [debian-iso-builder-respin-gnome-shell](https://github.com/samwhelp/debian-iso-builder-respin-gnome-shell) |
+| [debian-iso-builder-remix-kde-plasma](https://github.com/samwhelp/debian-iso-builder-remix-kde-plasma) | [debian-iso-builder-respin-kde-plasma](https://github.com/samwhelp/debian-iso-builder-respin-kde-plasma) |
+| [debian-iso-builder-remix-xfce](https://github.com/samwhelp/debian-iso-builder-remix-xfce) | [debian-iso-builder-respin-xfce](https://github.com/samwhelp/debian-iso-builder-respin-xfce) |
+| [debian-iso-builder-remix-lxqt](https://github.com/samwhelp/debian-iso-builder-remix-lxqt) | [debian-iso-builder-respin-lxqt](https://github.com/samwhelp/debian-iso-builder-respin-lxqt) |
+| [debian-iso-builder-remix-mate](https://github.com/samwhelp/debian-iso-builder-remix-mate) | [debian-iso-builder-respin-mate](https://github.com/samwhelp/debian-iso-builder-respin-mate) |
+| [debian-iso-builder-remix-cinnamon](https://github.com/samwhelp/debian-iso-builder-remix-cinnamon) | [debian-iso-builder-respin-cinnamon](https://github.com/samwhelp/debian-iso-builder-respin-cinnamon) |
+| [debian-iso-builder-remix-budgie](https://github.com/samwhelp/debian-iso-builder-remix-budgie) | [debian-iso-builder-respin-budgie](https://github.com/samwhelp/debian-iso-builder-respin-budgie) |
+
+
+| Remix | Respin |
+| ----- | ------ |
+| [debian-iso-builder-remix-lxqt-with-kwin](https://github.com/samwhelp/debian-iso-builder-remix-lxqt-with-kwin) | [debian-iso-builder-respin-lxqt-with-kwin](https://github.com/samwhelp/debian-iso-builder-respin-lxqt-with-kwin) |
+| [debian-iso-builder-remix-mate-with-compiz](https://github.com/samwhelp/debian-iso-builder-remix-mate-with-compiz) | [debian-iso-builder-respin-mate-with-compiz](https://github.com/samwhelp/debian-iso-builder-respin-mate-with-compiz) |
 
 
 
@@ -38,7 +62,7 @@
 > 產生一個檔案「`/boot/grub/custom.cfg`」，內容如下
 
 ``` sh
-menuentry "Lika OS" --class Debian {
+menuentry "Debian Live ISO" --class Debian {
 	set iso_file="/opt/iso/debian/latest/debian.iso"
 	search --set=iso_partition --no-floppy --file $iso_file
 	probe --set=iso_partition_uuid --fs-uuid $iso_partition
@@ -67,12 +91,12 @@ menuentry "Lika OS" --class Debian {
 
 
 
-## Debian OS / Live System
+## Debian / ISO Builder / Live System
 
 | Account  | Value  |
 | -------- | ------ |
-| Username | `user` |
-| Password | `live` |
+| Username | `live` |
+| Password | ``     |
 
 若想要移除目前帳號的密碼，可以執行下面指令
 
@@ -83,15 +107,29 @@ sudo passwd -d $(whoami)
 
 
 
+## 相關案例
+
+| 相關案例 |
+| ------- |
+| [debian-iso-builder-start](https://github.com/samwhelp/debian-iso-builder-start) |
+
+
+
+
 ## 相關筆記
 
 | Link | GitHub |
 | ---- | ------ |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
+| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
+| [Ubuntu / ISO Builder / 探索筆記](https://samwhelp.github.io/note-about-ubuntu-iso-builder/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-iso-builder) |
+
+
+| Link | GitHub |
+| ---- | ------ |
 | [Eznixos 探索筆記](https://samwhelp.github.io/note-about-eznixos/) | [GitHub](https://github.com/samwhelp/note-about-eznixos) |
 | [Lika OS 探索筆記](https://samwhelp.github.io/note-about-lika/) | [GitHub](https://github.com/samwhelp/note-about-lika) |
 | [Lika OS / Live Build Config / 探索筆記](https://samwhelp.github.io/note-about-lika-live-build-config/) | [GitHub](https://github.com/samwhelp/note-about-lika-live-build-config) |
-
 
 
 
