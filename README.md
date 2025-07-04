@@ -96,7 +96,7 @@ menuentry "Debian Live ISO" --class Debian {
 | Account  | Value  |
 | -------- | ------ |
 | Username | `live` |
-| Password | ``     |
+| Password |        |
 
 若想要移除目前帳號的密碼，可以執行下面指令
 
