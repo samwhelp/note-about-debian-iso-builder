@@ -40,4 +40,4 @@ parent: Respin
 | ---- | ------ |
 | [deb-coffee](https://samwhelp.github.io/deb-coffee/) | [GitHub](https://github.com/samwhelp/deb-coffee) |
 | [Pacstall 探索筆記](https://samwhelp.github.io/note-about-pacstall/) | [GitHub](https://github.com/samwhelp/note-about-pacstall) |
-| [Kdebian 探索筆記](https://samwhelp.github.io/note-about-kdebian/) | [GitHub](https://github.com/samwhelp/note-about-kdebian) |
+| [Debian Kde Plasma 探索筆記](https://samwhelp.github.io/note-about-debian-kde-plasma/) | [GitHub](https://github.com/samwhelp/note-about-debian-kde-plasma) |
