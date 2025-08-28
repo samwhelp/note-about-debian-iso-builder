@@ -92,6 +92,8 @@ menuentry "Debian Live ISO" --class Debian {
 > 重新開機後，就會在「GRUB」的開機選單，看到「`Debian Live ISO`」這個選項。
 
 
+> [https://salsa.debian.org/live-team/live-boot](https://salsa.debian.org/live-team/live-boot)
+
 > [https://salsa.debian.org/live-team/live-config](https://salsa.debian.org/live-team/live-config)
 
 
