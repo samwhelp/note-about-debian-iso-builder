@@ -54,3 +54,13 @@ has_children: true
 | [debian-iso-builder-remix-sway](https://github.com/samwhelp/debian-iso-builder-remix-sway) | [debian-iso-builder-respin-sway](https://github.com/samwhelp/debian-iso-builder-respin-sway) |
 | [debian-iso-builder-remix-labwc](https://github.com/samwhelp/debian-iso-builder-remix-labwc) | [debian-iso-builder-respin-labwc](https://github.com/samwhelp/debian-iso-builder-respin-labwc) |
 | [debian-iso-builder-remix-wayfire](https://github.com/samwhelp/debian-iso-builder-remix-wayfire) | [debian-iso-builder-respin-wayfire](https://github.com/samwhelp/debian-iso-builder-respin-wayfire) |
+
+
+
+
+| Remix | Respin |
+| ----- | ------ |
+| [debian-iso-builder-remix-spectrwm](https://github.com/samwhelp/debian-iso-builder-remix-spectrwm) | [debian-iso-builder-respin-spectrwm](https://github.com/samwhelp/debian-iso-builder-respin-spectrwm) |
+| [debian-iso-builder-remix-cwm](https://github.com/samwhelp/debian-iso-builder-remix-cwm) | [debian-iso-builder-respin-cwm](https://github.com/samwhelp/debian-iso-builder-respin-cwm) |
+| [debian-iso-builder-remix-pekwm](https://github.com/samwhelp/debian-iso-builder-remix-pekwm) | [debian-iso-builder-respin-pekwm](https://github.com/samwhelp/debian-iso-builder-respin-pekwm) |
+| [debian-iso-builder-remix-icewm](https://github.com/samwhelp/debian-iso-builder-remix-icewm) | [debian-iso-builder-respin-icewm](https://github.com/samwhelp/debian-iso-builder-respin-icewm) |
