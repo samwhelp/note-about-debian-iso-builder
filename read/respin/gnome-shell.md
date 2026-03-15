@@ -29,6 +29,8 @@ parent: Respin
 | Remix  | Respin |
 | ------ | ------ |
 | [debian-iso-builder-import-pacstall-gnome-shell-attach-themes](https://github.com/samwhelp/debian-iso-builder-import-pacstall-gnome-shell-attach-themes) | [debian-iso-builder-include-pacstall-gnome-shell-attach-themes](https://github.com/samwhelp/debian-iso-builder-include-pacstall-gnome-shell-attach-themes) |
+| [debian-iso-builder-import-pacstall-gnome-shell-layout-maccity](https://github.com/samwhelp/debian-iso-builder-import-pacstall-gnome-shell-layout-maccity) | [debian-iso-builder-include-pacstall-gnome-shell-layout-maccity](https://github.com/samwhelp/debian-iso-builder-include-pacstall-gnome-shell-layout-maccity) |
+| [debian-iso-builder-import-pacstall-gnome-shell-layout-wincity](https://github.com/samwhelp/debian-iso-builder-import-pacstall-gnome-shell-layout-wincity) | [debian-iso-builder-include-pacstall-gnome-shell-layout-wincity](https://github.com/samwhelp/debian-iso-builder-include-pacstall-gnome-shell-layout-wincity) |
 
 
 
@@ -40,3 +42,11 @@ parent: Respin
 | [deb-coffee](https://samwhelp.github.io/deb-coffee/) | [GitHub](https://github.com/samwhelp/deb-coffee) |
 | [Pacstall 探索筆記](https://samwhelp.github.io/note-about-pacstall/) | [GitHub](https://github.com/samwhelp/note-about-pacstall) |
 | [Debian Gnome Shell 探索筆記](https://samwhelp.github.io/note-about-debian-gnome-shell/) | [GitHub](https://github.com/samwhelp/note-about-debian-gnome-shell) |
+| [Debian Gnome Shell Adjustment](https://samwhelp.github.io/debian-gnome-shell-adjustment/) | [GitHub](https://github.com/samwhelp/debian-gnome-shell-adjustment) |
+| [make-gnome-shell-style](https://samwhelp.github.io/make-gnome-shell-style/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-style) |
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [make-gnome-shell-layout-wincity](https://samwhelp.github.io/make-gnome-shell-layout-wincity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-wincity) |
+| [make-gnome-shell-layout-maccity](https://samwhelp.github.io/make-gnome-shell-layout-maccity/) | [GitHub](https://github.com/samwhelp/make-gnome-shell-layout-maccity) |
