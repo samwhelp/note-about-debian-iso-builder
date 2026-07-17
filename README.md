@@ -116,9 +116,7 @@ menuentry "Debian Live ISO" --class Debian {
 | Account  | Value  |
 | -------- | ------ |
 | Username | `live` |
-| Password |        |
-
-> 目前沒有設定密碼
+| Password | `live` |
 
 
 若想要更改目前帳號的密碼，可以執行下面指令
